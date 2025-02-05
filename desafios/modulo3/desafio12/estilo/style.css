@@ -47,7 +47,6 @@ header a:hover{
 #imagem01{
     background: black url('../imagens/background001.jpg') center center no-repeat fixed;
     background-size: cover;
-    box-shadow: 100px 100px 100px black;
 }
 #imagem01 p{
     background-color: hsla(0, 0%, 0%, 0.5);
