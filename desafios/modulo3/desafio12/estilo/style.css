@@ -62,6 +62,9 @@ section{
 }
 .imagem{
     padding: 30px;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .imagem p{
@@ -69,15 +72,16 @@ section{
     color: white;
     display: inline-block; /*Para não ocupar toda a tela*/
     padding: 5px;
+    text-shadow: 1px 1px 0px black;
 }
+
 #imagem01{
-    background: black url('../imagens/background001.jpg') center center no-repeat fixed;
-    background-size: cover;
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
 }
 
 #imagem02{
-    background: black url('../imagens/background002.jpg') center center no-repeat fixed;
-    background-size: cover;
+    background-image: url('../imagens/background002.jpg');
 }
 
 footer{
