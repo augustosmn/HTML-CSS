@@ -35,7 +35,7 @@ i#burguer:hover{
 }
 
 menu{
-    display: block;
+    display: none;
 }
 
 menu ul{
@@ -69,7 +69,7 @@ main > article > h2{
     padding-bottom: 20px;
 }
 
-main > article > h2{
+main > article > p{
     text-align: justify;
     margin-bottom: 20px;
     text-indent: 20px;
