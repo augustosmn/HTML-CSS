@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons">
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>A Experiência do Intercâmbio</h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="menu">
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Benefícios</a></li>
+                <li><a href="#">Destinos</a></li>
+                <li><a href="#">Dicas</a></li>
+                <li><a href="#">Depoimentos</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Os Benefícios de Fazer um Intercâmbio</h2>
+            <p>
+                Realizar um intercâmbio é uma experiência enriquecedora que vai muito além da simples aprendizagem de um novo idioma. Ao viver em um país diferente, o estudante tem a oportunidade de conhecer novas culturas, expandir sua visão de mundo e desenvolver habilidades essenciais para o mercado de trabalho, como autonomia, resiliência e comunicação intercultural.
+            </p>
+
+            <p>Além disso, um intercâmbio pode contribuir significativamente para o crescimento pessoal, ajudando a construir confiança e independência. Conviver com pessoas de diferentes nacionalidades também amplia a rede de contatos e cria laços internacionais que podem ser valiosos tanto na vida pessoal quanto na carreira profissional.</p>
+                
+            <p>Com opções variadas de programas, como intercâmbio acadêmico, cursos de idiomas e estágios internacionais, essa experiência pode ser adaptada às necessidades e objetivos individuais de cada estudante. Seja qual for o destino escolhido, o intercâmbio representa uma jornada inesquecível de aprendizado e crescimento.</p>
+        </article>
+    </main>
+</body>
+<script>
+    function clickMenu(){
+        if (menu.style.display == 'block'){
+            menu.style.display = 'none'
+        } else {
+            menu.style.display = 'block'            
+        }
+    }
+</script>
+</html>
